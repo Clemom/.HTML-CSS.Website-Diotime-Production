@@ -1,6 +1,8 @@
 Nom du Projet : Diotime Production
-Description
-Site de Tutoriels Vidéo Diotime Production est un site web conçu pour offrir des tutoriels vidéo de haute qualité sur une variété de sujets, allant de l'apprentissage de la production au rendu d'un projet.
+
+Description :
+
+Site de Tutoriels Vidéo. Diotime Production est un site web conçu pour offrir des tutoriels vidéo de haute qualité sur une variété de sujets, allant de l'apprentissage de la production au rendu d'un projet.
 Ma mission est de fournir un apprentissage accessible à tous, en mettant l'accent sur la qualité et la praticité.
 
 Fonctionnalités
