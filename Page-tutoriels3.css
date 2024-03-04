@@ -1,0 +1,345 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-weight: 400;
+    color: #29354F;
+    background: white;
+    border-bottom: 1px solid;
+    border-color: #29354F;
+    font-size: 1.1em;
+}
+
+header {
+    background: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list .login {
+    margin-right: 5em;
+}
+
+.nav-list .recherche {
+    margin-left: 5em;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -0.9em;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #29354F;
+}
+
+nav .material-symbols-outlined {
+    font-size: 2em; 
+}
+
+
+
+.nav-list img {
+    max-height: 10vh;
+    min-width: 5vw;
+    
+}
+
+/*NAV*/
+/*----------------------------------------------------------------------------------------------*/
+
+.bandeau-bleu {
+    background-color: #29354F;
+    position: relative;
+    height: 60vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+
+.bandeau-bleu h1 {
+    font-size: 4rem; 
+    color: white;
+}
+
+.bandeau-bleu h2 {
+    font-size: 2rem; 
+    font-weight: 300;
+    color: white;
+    margin-bottom: 190px;
+    margin-top: 30px;
+}
+
+.illustration {
+    position: absolute;
+    margin-left: 1100px;
+    margin-bottom: 130px;
+    width: 180px;
+}
+
+.premierepro {
+    position: absolute;
+    margin-bottom: 380px;
+    width: 120px;
+}
+
+#video-accueil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+#video-accueil iframe {
+    height: 40em;
+    min-width: 70%;
+    border-radius: 8px;
+}
+
+#btn {
+    margin-left: 15vw;
+    margin-top: 3vh;
+}
+
+
+#descriptionContent,
+#sourcesContent,
+#commentairesContent {
+    width: 1330px;
+    border: 1px solid #29354F;
+    border-radius: 3px;
+    box-shadow: -5px 5px 0px 0px #29354F;
+    margin-top: 1%;
+    padding: 15px;
+}
+
+
+#btnDescription,
+#btnSources,
+#btnCommentaires {
+    padding: 5px 30px; /* Padding autour du texte du bouton */
+    background-color: #29354F; /* Fond du bouton */
+    color: #fff; /* Texte du bouton */
+    border: 1px solid #29354F;
+    border-radius: 4px; /* Coins arrondis */
+    cursor: pointer; /* Un curseur en forme de main quand vous survolez */
+}
+
+#btnDescription:hover,
+#btnSources:hover,
+#btnCommentaires:hover {
+    background-color: white; /* Changement de couleur lors du survol */
+    border: 1px solid #29354F;
+    color: #29354F;
+  }
+
+
+
+
+
+/*FOOTER*/
+/*----------------------------------------------------------------------------------------------*/
+
+footer {
+    background-color: #29354F;
+    color: white;
+    padding: 10px 0;
+    margin-top: 5%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    height: 100%;
+}
+
+.footer-reseau {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.footer-information a {
+    width: 250px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-pages a {
+    text-decoration: none;
+    color: white;
+    width: 150px;
+}
+
+.footer-reseau a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-information h5 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer-pages h5 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer-reseau h5 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer-pages ul {
+    column-count: 2;
+    column-gap: 2px;
+}
+
+.footer-information ul li a {
+    margin-bottom: 20px;
+    display: block;
+    padding: 0;
+}
+
+.footer-pages ul li a {
+    margin-bottom: 20px;
+    display: block;
+    padding: 0;
+}
+
+.footer-reseau ul li a {
+    margin-bottom: 20px;
+    display: block;
+    padding: 0;
+}
+
+.footer-information,
+.footer-pages,
+.footer-reseau,
+.footer-logo {
+    flex-basis: 5%;
+    padding: 0 15px;
+}
+
+.footer-logo {
+    margin-left: 6%;
+}
+
+.footer-logo img {
+    width: 100%;
+    width: 200px;
+    height: auto;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 54px;
+    height: auto;
+}
+
+
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+    
+    .bandeau-bleu {
+        height: 40vh; 
+    }
+
+    .bandeau-bleu h1 {
+        font-size: 2rem;
+    }
+
+    .bandeau-bleu h2 {
+        font-size: 1.5rem;
+        margin-bottom: 60px;
+        margin-top: 10px;
+    }
+
+    .premierepro {
+        margin-bottom: 160px;
+        width: 120px;
+    }
+
+    #video-accueil {
+        margin-top: 80px;
+    }
+
+    #btn {
+        display: none;
+    }
+
+    footer {
+        margin-top: 20%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-information,
+    .footer-pages,
+    .footer-logo,
+    .footer-reseau {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .footer-reseau {
+        margin-left: 10%;
+    }
+
+    .footer-pages ul {
+        column-count: 1;
+        column-gap: 2px;
+    }
+
+    .social-icons a {
+        margin: 0 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
