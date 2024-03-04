@@ -1,0 +1,507 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    line-height: 25px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-weight: 400;
+    color: #29354F;
+    background: white;
+    border-bottom: 1px solid;
+    border-color: #29354F;
+    font-size: 1.1em;
+}
+
+header {
+    background: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list .login {
+    margin-right: 5em;
+}
+
+.nav-list .recherche {
+    margin-left: 5em;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -0.6em;
+    
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #29354F;
+}
+
+nav .material-symbols-outlined {
+    font-size: 2em; 
+}
+
+
+
+.nav-list img {
+    max-height: 10vh;
+    min-width: 5vw;
+    
+}
+
+.bandeau-bleu {
+    background-color: #29354F;
+    position: relative;
+    height: 60vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bandeau-bleu h1 {
+    font-size: 4rem; 
+    color: white
+}
+
+.bandeau-bleu h2 {
+    font-size: 2rem; 
+    font-weight: 300;
+    color: white;
+}
+
+.bandeau-bleu img {
+    position: absolute;
+    margin-left: 850px;
+    margin-bottom: 50px;
+    width: 160px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    gap: 20px;
+    font-family: roboto;
+}
+
+button {
+    padding: 2px 0px;
+    background-color: #29354F;
+    color: #fff;
+    border: 1px solid #CC9872;
+    width: 180px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #CC9872;
+    border: 1px solid #29354F;
+    color: #ffffff;
+}
+
+.Titre-accueil {
+    display: flex;
+    justify-content: center;
+    margin-top: 8vh;
+    margin-bottom: 5vh;
+    font-size: 2rem;
+    color: #29354F;
+}
+
+#video-accueil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#video-accueil iframe {
+    height: 40em;
+    min-width: 70%;
+    border-radius: 1%;
+}
+
+#introduction-accueil {
+    display: flex;
+    align-items: center; 
+    justify-content: space-around; 
+    margin-top: 5%;
+    margin-right: 16%;
+    margin-left: 16%;
+    max-height: 5%;
+}
+
+#introduction-accueil .container-intro-gauche .container-intro-droite{
+    max-width: 100%; 
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container-intro-gauche {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.container-intro-gauche h3 {
+    margin-bottom: 5%;
+    color: #29354F;
+    font-size: 2em;
+    text-align: center;
+}
+
+.container-intro-gauche p {
+    width: 95%;
+    color: #29354F;
+}
+
+.container-intro-droite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.container-intro-droite h3 {
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    color: #29354F;
+    font-size: 2em;
+}
+
+.container-intro-droite p {
+    width: 95%;
+    color: #29354F;
+}
+
+.photo-montage {
+    max-width: 45%; 
+    height: auto; 
+    border-radius: 5px;
+    box-shadow: 10px 10px 0px #29354F;
+    z-index: 1;
+}
+
+.photo-reunion {
+    max-width: 45%; 
+    height: auto; 
+    border-radius: 5px;
+    box-shadow: 10px 10px 0px #29354F;
+    z-index: 1;
+}
+
+#equipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center
+}
+
+#equipe h3{
+    margin-top: 15vh;
+    font-size: 2rem;
+    color: #29354F;
+    margin-bottom: 1rem;
+}
+
+#equipe .trait {
+    background-color: #29354F;
+    width: 30%;
+    height: 2px;
+    margin-top: 1rem;
+}
+
+#photo-equipe {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    gap: 5%;
+
+}
+
+.membre-equipe {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 340px;
+}
+
+.membre-equipe img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 10px 10px 0px #29354F;
+}
+
+.membre-equipe h4 {
+    margin-top: 6%;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #29354F;
+}
+
+.membre-equipe p {
+    margin-top: 1%;
+    font-size: 1em;
+    color: #29354F;
+}
+
+/*FOOTER*/
+/*----------------------------------------------------------------------------------------------*/
+
+footer {
+    background-color: #29354F;
+    color: white;
+    padding: 10px 0;
+    margin-top: 5%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    height: 100%;
+}
+
+.footer-reseau {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.footer-information a {
+    width: 250px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-pages a {
+    text-decoration: none;
+    color: white;
+    width: 150px;
+}
+
+.footer-reseau a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-information h5 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer-pages h5 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer-reseau h5 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer-pages ul {
+    column-count: 2;
+    column-gap: 2px;
+}
+
+.footer-information ul li a {
+    margin-bottom: 20px;
+    display: block;
+    padding: 0;
+}
+
+.footer-pages ul li a {
+    margin-bottom: 20px;
+    display: block;
+    padding: 0;
+}
+
+.footer-reseau ul li a {
+    margin-bottom: 20px;
+    display: block;
+    padding: 0;
+}
+
+.footer-information,
+.footer-pages,
+.footer-reseau,
+.footer-logo {
+    flex-basis: 5%;
+    padding: 0 15px;
+}
+
+.footer-logo {
+    margin-left: 6%;
+}
+
+.footer-logo img {
+    width: 100%;
+    width: 200px;
+    height: auto;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 54px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+    
+    .bandeau-bleu {
+        height: 40vh; 
+    }
+
+    .bandeau-bleu h1 {
+        font-size: 2rem;
+    }
+
+    .bandeau-bleu h2 {
+        font-size: 1.5rem;
+    }
+
+    .Titre-accueil {
+        font-size: 1.6rem;
+    }
+
+    #video-accueil iframe {
+        border-radius: 5px;
+    }
+
+
+    #introduction-accueil {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #29354F; 
+        border-radius: 2%;
+        box-shadow: 4px 4px 5px 2px #4b5772;
+        margin-top: 75px;
+    }
+
+    #introduction-accueil img {
+        display: none;
+    }
+
+    .container-intro-gauche h3, 
+    .container-intro-droite h3,
+    .container-intro-gauche p, 
+    .container-intro-droite p {
+        max-width: 100%; 
+        width: auto; 
+        margin: 5px 0; 
+        padding: 5px 5px; 
+        color: #29354F;
+    }
+
+    .container-intro-gauche,
+    .container-intro-droite {
+        max-width: 100%; 
+        width: 550px;
+        margin: 0; 
+        padding: 15px 15px; 
+        text-align: center;
+    }
+
+    #equipe h3 {
+        margin-top: 80px;
+    }
+
+    .trait {
+        margin-bottom: 25px;
+    }
+
+    footer {
+        margin-top: 20%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-information,
+    .footer-pages,
+    .footer-logo,
+    .footer-reseau {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .footer-reseau {
+        margin-left: 10%;
+    }
+
+    .footer-pages ul {
+        column-count: 1;
+        column-gap: 2px;
+    }
+
+    .social-icons a {
+        margin: 0 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
