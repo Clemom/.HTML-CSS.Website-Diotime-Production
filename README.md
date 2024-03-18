@@ -1,6 +1,3 @@
-
-Voici la correction de votre texte :
-
 Voici mon premier projet en développement web ; il m'a fallu 1 mois pour obtenir ce résultat. J'ai commencé par réaliser mes wireframes et ma maquette sur Figma, puis j'ai commencé à coder tout par moi-même. À savoir que j'ai commencé le développement web en septembre 2023.
 
 Nom du Projet : Diotime Production
